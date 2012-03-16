@@ -1,5 +1,5 @@
-(ns tools.growlnotify.test.core
-  (:use [tools.growlnotify.core])
+(ns clj-growlnotify.test.core
+  (:use [clj-growlnotify])
   (:use [clojure.test]))
 
 (deftest replace-me ;; FIXME: write

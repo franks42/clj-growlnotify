@@ -2,6 +2,6 @@
 body { padding: 0; margin: 0; width: 600px; position: relative; word-wrap: break-word; }
 #wrapper {  border-bottom: 1px solid rgba(0,0,0,0.5);  border-right: 1px solid rgba(0,0,0,0.2); border-left: 1px solid rgba(255,255,255,0.3); border-top: 1px solid rgba(255,255,255,0.7); background: rgba(0,0,0,0.8) url(img/bg-sheen.png) repeat-x; padding: 10px 10px 10px 10px; position: relative; overflow: hidden; z-index: 1; }
 #title	{ /*text-shadow: 0px -1px 1px rgba(0,0,0,0.7);*/ position: relative; font: bold 13pt 'Verdana'; color: #FFF; /*letter-spacing: 0.7pt;*/ z-index: 3; padding: 0 0 4px 0; border-bottom: 1px solid rgba(255,255,255,0.3); margin: 0 0 0 30px; }
-#text { /*text-shadow: 0px -1px 1px rgba(0,0,0,0.7);*/ position: relative; font: normal 11pt "Inconsolata"; color: rgba(255,255,255,0.9); text-align: left; line-height: 12pt; z-index: 3; margin: 3px 0 0 30px; opacity: 1;}
+#text { /*text-shadow: 0px -1px 1px rgba(0,0,0,0.7);*/ position: relative; font: normal 11pt "Inconsolata"; color: rgba(255,255,255,0.9); text-align: left; line-height: 12pt; z-index: 3; margin: 3px 0 0 25px; opacity: 1;}
 #icon { position: absolute; z-index: 2; top: -30px; left: -40px; opacity: 0.4; max-height: 160px; max-width: 160px; min-height: 100px; min-width: 100px; -webkit-transform: rotate(-10deg); -webkit-animation-name: 'iconFlyIn'; -webkit-animation-duration: 2s; -webkit-animation-iteration-count: 1; -webkit-animation-timing-function: ease; }
 @-webkit-keyframes 'iconFlyIn' { 0% { left: 400px; opacity: 1; } 100% { left: -40px; opacity: .4; } }

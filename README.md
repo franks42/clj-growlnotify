@@ -1,4 +1,4 @@
-# tools.growlnotify
+# clj-growlnotify
 
 Clojure interface to the "growlnotify" command line tool to post growl notifications
 
@@ -10,6 +10,7 @@ UDP and java-based solutions required too much config or were unstable. This is 
 
 Usage (use long-string "growlnotify" command line options):
 
+		(use 'clj-growlnotify)
 		(growl-notify "my title" "my message")
 		(growl-notify "my title" "my message" :name "myapp" :sticky true)
 		(growl-notify {:title "my title" :message "my message" :name "myapp" :sticky true})
@@ -28,7 +29,7 @@ Double-clicking the BasicsCljDoc.growlStyle file will automatically install that
 
 The resource folder also includes a copy of the Clojure logo as a gif-file, which can be used to associate the growl notification with clojure-related activity. Tom Hickey deserves credit for that beautiful design!!!
 
-You should also install the Inconsolata font (http://www.google.com/webfonts/specimen/Inconsolata). Whether you use this growlnotify or not, you should install this font anyway for your favorite code editor as it's the best fixed-width "coding-font" out there (Raph Levien is the designer).
+You should also install the Inconsolata font (http://www.google.com/webfonts/specimen/Inconsolata). Whether you use this growlnotify or not, you should install this font anyway for your favorite code editor as it's the best fixed-width "coding-font" out there (kudos for the designer, Raph Levien).
 
 ## License
 
