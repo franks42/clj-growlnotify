@@ -7,8 +7,9 @@
 ;; You must not remove this notice, or any other, from this software.
 
 (ns clj-growlnotify
-  "Collection of functions/macros to post growl messages, and to post
-  clojure-doc documentation as a growl message."
+  "Namespace with \"growl-notify\" clojure function to post growl messages.
+  Usage: (use 'clj-growlnotity)
+  which adds single \"growl-notify\" function to local ns"
   (:require [clojure.java.shell]
             [clojure.string]))
 

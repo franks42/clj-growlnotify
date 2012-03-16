@@ -35,3 +35,6 @@
         (symbol? w) `(gdoc* ~(str w))
         (= (type w) clojure.lang.Cons) `(gdoc* ~(str (second w)))))
 
+
+;; register gdoc* with info facility, such that it can be used with (info...)
+(clj-info/add-info-fn-map :growl gdoc*)
