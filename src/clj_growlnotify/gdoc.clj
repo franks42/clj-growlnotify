@@ -26,12 +26,12 @@
     ttl))
 
 (defmacro gdoc
-  "Macro that presents documentation of given identifier as 
-   a growl notification. Identifier can be given as string, 
+  "Macro that presents documentation of given identifier as
+   a growl notification. Identifier can be given as string,
    symbol, or quoted symbol. Returns FQN of identifier.
    (gdoc map), (gdoc 'map) and (gdoc \"map\") are all equivalent."
   [w]
-  (cond (string? w) `(gdoc* ~w) 
+  (cond (string? w) `(gdoc* ~w)
         (symbol? w) `(gdoc* ~(str w))
         (= (type w) clojure.lang.Cons) `(gdoc* ~(str (second w)))))
 
