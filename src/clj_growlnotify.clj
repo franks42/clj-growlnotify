@@ -14,6 +14,9 @@
             [clojure.string]))
 
 
+(def clj-growlnotify-version "0.1.2-SNAPSHOT")
+
+
 (defn growl-notify
 	"Hack to post growl messages thru command line \"growlnotify\"
 	 invocation. UDP and java-based solutions required too much config.
