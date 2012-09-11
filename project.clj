@@ -5,5 +5,5 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.4.0"]
                  [hiccup "1.0.1"]
-                 [clj-info "0.2.4"]]
+                 [clj-info "0.2.6"]]
   :main clj-growlnotify.gdoc)
